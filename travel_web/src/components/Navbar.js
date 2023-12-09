@@ -10,7 +10,7 @@ const Navbar = () => {
     <header id='Navbar' className={styles.navbar}>
     <img src={Logo} alt='logo'/>
     <nav>
-      <ul className={nav ?[styles.menu, styles.active].join(' ') :[styles.menu]}>
+    <ul className={nav ?[styles.menu, styles.active].join(' ') :[styles.menu]}>
          <li>
           <Link to="#find">
           Cars
